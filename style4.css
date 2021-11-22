@@ -1,4 +1,6 @@
-body {background-image: url('6.jpg');
+body{background-image:url("6.jpg");
+background-repeat: no-repeat;
+background-size:cover;
 }
 #menu{
 background-color:red;

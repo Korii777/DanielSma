@@ -1,7 +1,9 @@
-body {background-image: url('1.jpg');
+body{background-image:url("tło.jpg");
+background-repeat: no-repeat;
+background-size:cover;
 }
 #menu{
-background-color:red;
+background-color: #2c4984;
 font-weight:bold;
 float:none;
 display: block;
@@ -13,7 +15,7 @@ margin-left:auto;
 margin-right:auto;
 }
 #menu li{
-background-color:black;
+background-image:url("tłomenu.jpg");
 float:left;
 display:block;
 cursor: pointer;
@@ -31,7 +33,7 @@ width:150px;
 }
 #menu li li a{
 text-decoration:none;
-color:#red;
+color:
 }
 #menu li ul{
 display:none;
@@ -40,19 +42,19 @@ padding:0px;
 }
 #menu li:hover ul{
 display:block;
-color:#cce0ffd0;
+color: #2c4984;
 }
 #menu li li:hover{
-background-color:#red;
+background-color: #2c4984;
 }
 a{
 text-decoration:none;
-color:#66FFFF;
+color: #2c4984;
 
 }
 a:hover{
 text-decoration:none;
-color: #purple;
+color: white;
 font-weight:bold;
 }
 #header {
@@ -63,12 +65,35 @@ font-weight:bold;
 }
 h1{
  text-align: center;
- background:#39b6dc94;
+ background-image:url("tłomenu.jpg");
  color:#yellow;
  max-width: 80%;
- border-radius:40%;
  padding:0px;
+ border-radius: 0%;
+ border-style: solid;
+ border-width: 5px;
+ border-color: #2c4984;
 }
 h1:hover{
 transform:scale(1.1);
+}
+body{
+  max-width:100%;
+}
+button{
+font-family:"Segoe Paint";
+font-size: 12pt;
+cursor: url(kursor.gif), auto;
+width: 13%;
+height: 100px;
+background-image: url("tło.jpg");
+border: 2px solid black;
+}
+button:hover{
+color:black;
+font-size: 16 px;
+background-image: url("tłomenu.jpg");
+width: 13%;
+height: 100px;
+border: 2px solid black;
 }
