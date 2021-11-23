@@ -84,10 +84,175 @@ body{
  cursor: pointer;
  border-color: transparent;
  background-color: transparent;
+ background-image:url("merkury.png");
+ width:10%;
+ height:20%;
+ position: fixed;
+ left: 2%;
+ top: 15%;
+}
+.btn:hover {
+ cursor: pointer;
+ border-color: transparent;
+ background-color: transparent;
+ background-image:url("merkuryh.png");
+ width:10%;
+ height:20%;
+ position: fixed;
+ left: 2%;
+ top: 15%;
+}
+.btn1 {
+ cursor: pointer;
+ border-color: transparent;
+ background-color: transparent;
+ background-image:url("wenus.png");
+ width:10%;
+ height:20%;
+ position: fixed;
+ left: 2%;
+ top: 35%;
+}
+.btn1:hover {
+ cursor: pointer;
+ border-color: transparent;
+ background-color: transparent;
+ background-image:url("wenush.png");
+ width:10%;
+ height:20%;
+ position: fixed;
+ left: 2%;
+ top: 35%;
+}
+.btn2 {
+ cursor: pointer;
+ border-color: transparent;
+ background-color: transparent;
+ background-image:url("ziemia.png");
+ width:10%;
+ height:20%;
+ position: fixed;
+ left: 2%;
+ top: 55%;
+}
+.btn2:hover {
+ cursor: pointer;
+ border-color: transparent;
+ background-color: transparent;
+ background-image:url("ziemiah.png");
+ width:10%;
+ height:20%;
+ position: fixed;
+ left: 2%;
+ top: 55%;
+}
+.btn3 {
+ cursor: pointer;
+ border-color: transparent;
+ background-color: transparent;
  background-image:url("mars.png");
- height: 50px;
- width: 200px;
- color: #3498db;
- font-size: 1.5em;
- box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+ width:10%;
+ height:20%;
+ position: fixed;
+ left: 2%;
+ top: 75%;
+}
+.btn3:hover {
+ cursor: pointer;
+ border-color: transparent;
+ background-color: transparent;
+ background-image:url("marsh.png");
+ width:10%;
+ height:20%;
+ position: fixed;
+ left: 2%;
+ top: 75%;
+}
+.btn4 {
+ cursor: pointer;
+ border-color: transparent;
+ background-color: transparent;
+ background-image:url("jupiter.png");
+ width:10%;
+ height:20%;
+ position: fixed;
+ right: 2%;
+ top: 15%;
+}
+.btn4:hover {
+ cursor: pointer;
+ border-color: transparent;
+ background-color: transparent;
+ background-image:url("jupiterh.png");
+ width:10%;
+ height:20%;
+ position: fixed;
+ right: 2%;
+ top: 15%;
+}
+.btn5 {
+ cursor: pointer;
+ border-color: transparent;
+ background-color: transparent;
+ background-image:url("saturn.png");
+ width:10%;
+ height:20%;
+ position: fixed;
+ right: 2%;
+ top: 35%;
+}
+.btn5:hover {
+ cursor: pointer;
+ border-color: transparent;
+ background-color: transparent;
+ background-image:url("saturnh.png");
+ width:10%;
+ height:20%;
+ position: fixed;
+ right: 2%;
+ top: 35%;
+}
+.btn6 {
+ cursor: pointer;
+ border-color: transparent;
+ background-color: transparent;
+ background-image:url("uranus.png");
+ width:10%;
+ height:20%;
+ position: fixed;
+ right: 2%;
+ top: 55%;
+}
+.btn6:hover {
+ cursor: pointer;
+ border-color: transparent;
+ background-color: transparent;
+ background-image:url("uranush.png");
+ width:10%;
+ height:20%;
+ position: fixed;
+ right: 2%;
+ top: 55%;
+}
+ .btn7 {
+ cursor: pointer;
+ border-color: transparent;
+ background-color: transparent;
+ background-image:url("neptun.png");
+ width:10%;
+ height:20%;
+ position: fixed;
+ right: 2%;
+ top: 75%;
+}
+ .btn7:hover {
+ cursor: pointer;
+ border-color: transparent;
+ background-color: transparent;
+ background-image:url("neptunh.png");
+ width:10%;
+ height:20%;
+ position: fixed;
+ right: 2%;
+ top: 75%;
 }
