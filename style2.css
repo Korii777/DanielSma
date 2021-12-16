@@ -1,76 +1,325 @@
-body{background-image:url("4.jpg");
+body{background-image:url("animacjatło.png");
 background-repeat: no-repeat;
 background-size:cover;
 }
-#menu{
-background-color:red;
-font-weight:bold;
-float:none;
-display: block;
-font-size:100%;
-align-items: center;
-height:100%;
-width:50%;
-margin-left:auto;
-margin-right:auto;
+.main1{
+  width:100px;
+  height:100px;
+  border:1px solid #CCC;
+  position:absolute;
+  top:0; bottom:0; left:0;right:0;
+  margin:auto;
+  border-radius:50%; 
 }
-#menu li{
-background-color:black;
-float:left;
-display:block;
-cursor: pointer;
-height:8%;
-width:16%;
-color:#FF6F00;
-font-size:100%;
-text-align:center;
 
+.merkury{
+  width:20px;
+  height:20px;
+  background-image:url("amerkury.png");
+  border-radius:50%;
+  position:absolute;
+  top:0; bottom:0; left:0;right:0;
+  overflow:hidden;
+  margin:auto;
+  animation: merkury 1s linear infinite;
 }
-#menu li li {
-float:none;
-height:30px;
-width:150px;
-}
-#menu li li a{
-text-decoration:none;
-color:#red;
-}
-#menu li ul{
-display:none;
-position:absolute;
-padding:0px;
-}
-#menu li:hover ul{
-display:block;
-color:#cce0ffd0;
-}
-#menu li li:hover{
-background-color:#red;
-}
-a{
-text-decoration:none;
-color:#66FFFF;
 
+@keyframes merkury{
+  0%{
+    transform:rotate(0deg)
+              translate(-50px)
+              rotate(0deg);
+  
+  }
+  100%{
+    transform:rotate(360deg)
+              translate(-50px)
+              rotate(-360deg);
+  }
 }
-a:hover{
-text-decoration:none;
-color: #purple;
-font-weight:bold;
+
+.main2{
+  width:150px;
+  height:150px;
+  border:1px solid #CCC;
+  position:absolute;
+  top:0; bottom:0; left:0;right:0;
+  margin:auto;
+  border-radius:50%; 
 }
-#header {
-  max-width: 100%;
-  height: auto;
-  margin: auto;
-  padding: 0;
+
+.wenus{
+  width:30px;
+  height:30px;
+  background-image:url("awenus.png");
+  border-radius:50%;
+  position:absolute;
+  top:0; bottom:0; left:0;right:0;
+  overflow:hidden;
+  margin:auto;
+  animation: wenus 3s linear infinite;
 }
-h1{
- text-align: center;
- background:#39b6dc94;
- color:#yellow;
- max-width: 80%;
- border-radius:40%;
- padding:0px;
+
+@keyframes wenus{
+  0%{
+    transform:rotate(0deg)
+              translate(-75px)
+              rotate(0deg);
+  
+  }
+  100%{
+    transform:rotate(360deg)
+              translate(-75px)
+              rotate(-360deg);
+  }
 }
-h1:hover{
-transform:scale(1.1);
+
+.main3{
+  width:250px;
+  height:250px;
+  border:1px solid #CCC;
+  position:absolute;
+  top:0; bottom:0; left:0;right:0;
+  margin:auto;
+  border-radius:50%;  
 }
+
+.ziemia{
+  width:40px;
+  height:40px;
+  background-image:url("aziemia.png");
+  border-radius:50%;
+  position:absolute;
+  top:0; bottom:0; left:0;right:0;
+  overflow:hidden;
+  margin:auto;
+  animation: ziemia 8s linear infinite;
+}
+
+@keyframes ziemia{
+  0%{
+    transform:rotate(0deg)
+              translate(-125px)
+              rotate(0deg);
+  
+  }
+  100%{
+    transform:rotate(360deg)
+              translate(-125px)
+              rotate(-360deg);
+  }
+}
+
+.main4{
+  width:350px;
+  height:350px;
+  border:1px solid #CCC;
+  position:absolute;
+  top:0; bottom:0; left:0;right:0;
+  margin:auto;
+  border-radius:50%; 
+}
+
+.mars{
+  width:35px;
+  height:35px;
+  background-image:url("amars.png");
+  border-radius:50%;
+  position:absolute;
+  top:0; bottom:0; left:0;right:0;
+  overflow:hidden;
+  margin:auto;
+  animation: mars 10s linear infinite;
+}
+
+@keyframes mars{
+  0%{
+    transform:rotate(0deg)
+              translate(-175px)
+              rotate(0deg);
+  
+  }
+  100%{
+    transform:rotate(360deg)
+              translate(-175px)
+              rotate(-360deg);
+  }
+}
+
+.main5{
+  width:500px;
+  height:500px;
+  border:1px solid #CCC;
+  position:absolute;
+  top:0; bottom:0; left:0;right:0;
+  margin:auto;
+  border-radius:50%; 
+}
+
+.jupiter{
+  width:60px;
+  height:60px;
+  background-image:url("ajupiter.png");
+  border-radius:50%;
+  position:absolute;
+  top:0; bottom:0; left:0;right:0;
+  overflow:hidden;
+  margin:auto;
+  animation: jupiter 35s linear infinite;
+}
+
+@keyframes jupiter{
+  0%{
+    transform:rotate(0deg)
+              translate(-250px)
+              rotate(0deg);
+  
+  }
+  100%{
+    transform:rotate(360deg)
+              translate(-250px)
+              rotate(-360deg);
+  }
+}
+
+.main6{
+  width:625px;
+  height:625px;
+  border:1px solid #CCC;
+  position:absolute;
+  top:0; bottom:0; left:0;right:0;
+  margin:auto;
+  border-radius:50%; 
+}
+
+.saturn{
+  width:45px;
+  height:45px;
+  background-image:url("asaturn.png");
+  border-radius:50%;
+  position:absolute;
+  top:0; bottom:0; left:0;right:0;
+  overflow:hidden;
+  margin:auto;
+  animation: saturn 40s linear infinite;
+}
+
+@keyframes saturn{
+  0%{
+    transform:rotate(0deg)
+              translate(-312px)
+              rotate(0deg);
+  
+  }
+  100%{
+    transform:rotate(360deg)
+              translate(-312px)
+              rotate(-360deg);
+  }
+}
+
+.main7{
+  width:750px;
+  height:750px;
+  border:1px solid #CCC;
+  position:absolute;
+  top:0; bottom:0; left:0;right:0;
+  margin:auto;
+  border-radius:50%; 
+}
+
+.uran{
+  width:45px;
+  height:45px;
+  background-image:url("auranus.png");
+  border-radius:50%;
+  position:absolute;
+  top:0; bottom:0; left:0;right:0;
+  overflow:hidden;
+  margin:auto;
+  animation: uran 75s linear infinite;
+}
+
+@keyframes uran{
+  0%{
+    transform:rotate(0deg)
+              translate(-375px)
+              rotate(0deg);
+  
+  }
+  100%{
+    transform:rotate(360deg)
+              translate(-375px)
+              rotate(-360deg);
+  }
+}
+
+.main8{
+  width:850px;
+  height:850px;
+  border:1px solid #CCC;
+  position:absolute;
+  top:0; bottom:0; left:0;right:0;
+  margin:auto;
+  border-radius:50%; 
+}
+
+.neptun{
+  width:45px;
+  height:45px;
+  background-image:url("aneptun.png");
+  border-radius:50%;
+  position:absolute;
+  top:0; bottom:0; left:0;right:0;
+  overflow:hidden;
+  margin:auto;
+  animation: neptun 80s linear infinite;
+}
+
+@keyframes neptun{
+  0%{
+    transform:rotate(0deg)
+              translate(-425px)
+              rotate(0deg);
+  
+  }
+  100%{
+    transform:rotate(360deg)
+              translate(-425px)
+              rotate(-360deg);
+  }
+}
+img {
+ width:70px;
+ height:70px;
+ position: fixed;
+ left: 925px;
+ top: 430px;
+}
+
+.btn {
+ cursor: pointer;
+ border-color: transparent;
+ background-color: transparent;
+ background-image:url("statek.png");
+ width:150px;
+ height:150px;
+ position: fixed;
+ left: 5px;
+ top: 5px;
+ overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+}
+.btn:hover {
+ cursor: pointer;
+ border-color: transparent;
+ background-color: transparent;
+ background-image:url("hstatek.png");
+ width:150px;
+ height:150px;
+ position: fixed;
+ left: 5px;
+ top: 5px;
+ transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);

@@ -3,7 +3,7 @@ background-repeat: no-repeat;
 background-size:cover;
 }
 #menu{
-background-color:red;
+background-color: #2c4984;
 font-weight:bold;
 float:none;
 display: block;
@@ -15,7 +15,7 @@ margin-left:auto;
 margin-right:auto;
 }
 #menu li{
-background-color:black;
+background-image:url("tłomenu.jpg");
 float:left;
 display:block;
 cursor: pointer;
@@ -24,38 +24,6 @@ width:16%;
 color:#FF6F00;
 font-size:100%;
 text-align:center;
-
-}
-#menu li li {
-float:none;
-height:30px;
-width:150px;
-}
-#menu li li a{
-text-decoration:none;
-color:#red;
-}
-#menu li ul{
-display:none;
-position:absolute;
-padding:0px;
-}
-#menu li:hover ul{
-display:block;
-color:#cce0ffd0;
-}
-#menu li li:hover{
-background-color:#red;
-}
-a{
-text-decoration:none;
-color:#66FFFF;
-
-}
-a:hover{
-text-decoration:none;
-color: #purple;
-font-weight:bold;
 }
 #header {
   max-width: 100%;
@@ -65,16 +33,292 @@ font-weight:bold;
 }
 h1{
  text-align: center;
- background:#39b6dc94;
+ background-image:url("tłomenu.jpg");
  color:#yellow;
  max-width: 80%;
- border-radius:40%;
  padding:0px;
+ border-radius: 0%;
+ border-style: solid;
+ border-width: 5px;
+ border-color: #2c4984;
 }
-h1:hover{
- transform:scale(1.1);
+body{
+  max-width:100%;
 }
-#tekst {
-text-align: left;
-background: white;
+.btn {
+ cursor: pointer;
+ border-color: transparent;
+ background-color: transparent;
+ background-image:url("merkury.png");
+ width:10%;
+ height:20%;
+ position: fixed;
+ left: 2%;
+ top: 15%;
+}
+.btn:hover {
+ cursor: pointer;
+ border-color: transparent;
+ background-color: transparent;
+ background-image:url("merkuryh.png");
+ width:10%;
+ height:20%;
+ position: fixed;
+ left: 2%;
+ top: 15%;
+}
+.btn1 {
+ cursor: pointer;
+ border-color: transparent;
+ background-color: transparent;
+ background-image:url("wenus.png");
+ width:10%;
+ height:20%;
+ position: fixed;
+ left: 2%;
+ top: 35%;
+}
+.btn1:hover {
+ cursor: pointer;
+ border-color: transparent;
+ background-color: transparent;
+ background-image:url("wenush.png");
+ width:10%;
+ height:20%;
+ position: fixed;
+ left: 2%;
+ top: 35%;
+}
+.btn2 {
+ cursor: pointer;
+ border-color: transparent;
+ background-color: transparent;
+ background-image:url("ziemia.png");
+ width:10%;
+ height:20%;
+ position: fixed;
+ left: 2%;
+ top: 55%;
+}
+.btn2:hover {
+ cursor: pointer;
+ border-color: transparent;
+ background-color: transparent;
+ background-image:url("ziemiah.png");
+ width:10%;
+ height:20%;
+ position: fixed;
+ left: 2%;
+ top: 55%;
+}
+.btn3 {
+ cursor: pointer;
+ border-color: transparent;
+ background-color: transparent;
+ background-image:url("mars.png");
+ width:10%;
+ height:20%;
+ position: fixed;
+ left: 2%;
+ top: 75%;
+}
+.btn3:hover {
+ cursor: pointer;
+ border-color: transparent;
+ background-color: transparent;
+ background-image:url("marsh.png");
+ width:10%;
+ height:23%;
+ position: fixed;
+ left: 2%;
+ top: 75%;
+}
+.btn4 {
+ cursor: pointer;
+ border-color: transparent;
+ background-color: transparent;
+ background-image:url("jupiter.png");
+ width:10%;
+ height:20%;
+ position: fixed;
+ right: 2%;
+ top: 15%;
+}
+.btn4:hover {
+ cursor: pointer;
+ border-color: transparent;
+ background-color: transparent;
+ background-image:url("jupiterh.png");
+ width:10%;
+ height:20%;
+ position: fixed;
+ right: 2%;
+ top: 15%;
+}
+.btn5 {
+ cursor: pointer;
+ border-color: transparent;
+ background-color: transparent;
+ background-image:url("saturn.png");
+ width:10%;
+ height:20%;
+ position: fixed;
+ right: 2%;
+ top: 35%;
+}
+.btn5:hover {
+ cursor: pointer;
+ border-color: transparent;
+ background-color: transparent;
+ background-image:url("saturnh.png");
+ width:10%;
+ height:20%;
+ position: fixed;
+ right: 2%;
+ top: 35%;
+}
+.btn6 {
+ cursor: pointer;
+ border-color: transparent;
+ background-color: transparent;
+ background-image:url("uranus.png");
+ width:10%;
+ height:20%;
+ position: fixed;
+ right: 2%;
+ top: 55%;
+}
+.btn6:hover {
+ cursor: pointer;
+ border-color: transparent;
+ background-color: transparent;
+ background-image:url("uranush.png");
+ width:10%;
+ height:20%;
+ position: fixed;
+ right: 2%;
+ top: 55%;
+}
+ .btn7 {
+ cursor: pointer;
+ border-color: transparent;
+ background-color: transparent;
+ background-image:url("neptun.png");
+ width:10%;
+ height:20%;
+ position: fixed;
+ right: 2%;
+ top: 75%;
+}
+ .btn7:hover {
+ cursor: pointer;
+ border-color: transparent;
+ background-color: transparent;
+ background-image:url("neptunh.png");
+ width:10%;
+ height:20%;
+ position: fixed;
+ right: 2%;
+ top: 75%;
+}
 
+.btn {
+    overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+}
+.btn:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+.btn1 {
+    overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+}
+.btn1:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}.btn2 {
+    overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+}
+.btn2:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}.btn3 {
+    overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+}
+.btn3:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}.btn4 {
+    overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+}
+.btn4:hover {
+    transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
+}.btn5 {
+    overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+}
+.btn5:hover {
+    transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
+}.btn6 {
+    overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+}
+.btn6:hover {
+    transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
+}
+.btn7 {
+    overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+}
+.btn7:hover {
+    transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
+}
+li {
+    list-style-type: none;
+    color: white;
+    font-size: 25px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.btn10 {
+ cursor: pointer;
+ border-color: transparent;
+ background-color: transparent;
+ background-image:url("statek.png");
+ width:150px;
+ height:150px;
+ position: fixed;
+ left: 5px;
+ top: 5px;
+ overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+}
+.btn10:hover {
+ cursor: pointer;
+ border-color: transparent;
+ background-color: transparent;
+ background-image:url("hstatek.png");
+ width:150px;
+ height:150px;
+ position: fixed;
+ left: 5px;
+ top: 5px;
+ transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);

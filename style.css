@@ -24,7 +24,6 @@ width:16%;
 color:#FF6F00;
 font-size:100%;
 text-align:center;
-
 }
 #menu li li {
 float:none;
@@ -33,7 +32,6 @@ width:150px;
 }
 #menu li li a{
 text-decoration:none;
-color:
 }
 #menu li ul{
 display:none;
@@ -163,7 +161,7 @@ body{
  background-color: transparent;
  background-image:url("marsh.png");
  width:10%;
- height:20%;
+ height:23%;
  position: fixed;
  left: 2%;
  top: 75%;
@@ -255,4 +253,72 @@ body{
  position: fixed;
  right: 2%;
  top: 75%;
+}
+
+.btn {
+    overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+}
+.btn:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+.btn1 {
+    overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+}
+.btn1:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}.btn2 {
+    overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+}
+.btn2:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}.btn3 {
+    overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+}
+.btn3:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}.btn4 {
+    overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+}
+.btn4:hover {
+    transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
+}.btn5 {
+    overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+}
+.btn5:hover {
+    transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
+}.btn6 {
+    overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+}
+.btn6:hover {
+    transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
+}
+.btn7 {
+    overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+}
+.btn7:hover {
+    transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
 }
